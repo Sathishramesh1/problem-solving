@@ -7,7 +7,7 @@ function removeDuplicates(arr) {
        if(!seen[arr[i]]){
         unique.push(arr[i])
        }
-
+        seen[arr[i]]=true
 
     }
 
